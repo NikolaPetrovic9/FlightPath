@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+  <meta charset=utf-8 />
+  <title>Modest Maps JS Demo | Great Circle</title>
+
+  <link rel="stylesheet" href="autocomplite/awesomplete.css" />
+  <script src="autocomplite/awesomplete.js" async></script>
+  <link rel='stylesheet' href='style.css'>
+</head>
+
+<body>
+  <div id="sidebar">
+
+    <div>
+      <div>
+        <input type="search" placeholder="From" autocomplete="off" oninput="" id="start" name="" value="">
+        <input type="search" placeholder="To" autocomplete="off" oninput="" id="end" name="" value="">
+        <br>
+        <button id="button" onclick="mapInitialization()">Submit</button>
+      </div>
+
+      <div id="info">
+
+        <h4>Route</h4>
+
+        <p id="t1">--</p>
+
+        <h4>Distance</h4>
+
+        <p id="t2">--</p>
+
+        <h4>Estimated time of arival</h4>
+
+        <p id="t3">--</p>
+
+
+      </div>
+    </div>
+  </div>
+
+
+
+  <div id="map">
+
+    <script src='https://rawgithub.com/stamen/modestmaps-js/master/modestmaps.min.js'></script>
+    <script src="LocationsDijkstra.js"></script>
+    <script src='DijkstraAirports.js'></script>
+    <script src='app.js'></script>
+  </div>
+
+
+</body>
+
+</html>

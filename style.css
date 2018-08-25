@@ -1,0 +1,42 @@
+body {
+  font: 13px/22px 'Helvetica Neue', Helvetica, sans;
+  background: lightcyan;
+
+  background-image: url(city-background.jpg);
+  background-size: cover
+
+}
+#map {
+  float: center;
+  height: 600px;
+  width: 880px;
+}
+
+#button{
+  margin: 5px;
+  cursor: pointer;
+  height:30px;
+  width:340px;
+  background-color: white;
+  color: black;
+  border: 2px solid #4CAF50; /* Green */
+}
+
+#sidebar{
+  padding: 3px;
+  background-color: lightblue;
+  color: black;
+  border: 2px solid #4CAF50; /* Green */
+  float: right;
+}
+
+#t1{
+  text-align: center;
+  white-space: pre-wrap;
+}
+#t2{
+  text-align: center;
+}
+#t3{
+  text-align: center;
+}
